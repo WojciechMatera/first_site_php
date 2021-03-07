@@ -49,7 +49,7 @@
 	
 	Autor: Administrator<br/>
 	Wszelkie prawa zastrzeżone.<br/>
-	Mail: biuro@wmatera.pl
+	Mail: 
 </div>
 
 </div> <!-- stopka 2-->

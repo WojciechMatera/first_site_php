@@ -1,7 +1,7 @@
 <?php
 
 $nazwa_uz = "Admin";
-$haslo = "rybunial";
+$haslo = "";
 
   $_SESSION['uwierz_uzyt'] = $nazwa_uz;
 
@@ -86,7 +86,7 @@ a:visited
            <li class="current"><a href="index.php"><b>Strona główna</b></a></li>
             <li><a href="mojahistoria.php?tytul=moja_historia"><b>Moja Historia</b></a></li>
 			<li><a href="porady.php?tytul=porady"><b>Porady</b></a></li>
-			<li><a href="http://wmatera.pl/forum/index.php"><b>Forum</b></a></li>			
+				
 			<li><a href="porady.php?tytul=serwis"><b>Serwis</b></a></li>			
  			
 			<!--   <li><a href="formularz.php"><b>Zgłoszenie pytania</b></a></li>

@@ -29,8 +29,8 @@ class dbconn extends Singleton {
     private $_conn;
     private $login = 'admin';
     private $server = 'localhost';
-    private $password = 'rybunial';
-    private $database = 'wmatera';
+    private $password = '';
+    private $database = 'site';
 
     protected function __construct() {
         $this->_conn = mysql_connect($this->server, $this->login, $this->password) or die(mysql_error());

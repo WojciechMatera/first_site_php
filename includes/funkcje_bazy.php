@@ -2,7 +2,7 @@
 
 function lacz_bd()
 {
-   $wynik = new mysqli ('localhost', 'admin', 'rybunial', 'wmatera'); 
+   $wynik = new mysqli ('localhost', 'admin', '', 'site'); 
    if (!$wynik)
       return false;
 
