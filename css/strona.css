@@ -1,0 +1,152 @@
+html,body {		background: /*#3e4341;*//*#191f26*/white;	 /*	background-attachment: fixed; 	background-position: center;#b7bd19*/		}
+@font-face { 	font-family: Trajan Pro; src: url("../fonts/TrajanPro-Regular.otf") format("opentype"); }
+@font-face { 	font-family: resident; src: url('../fonts/Resident_Evil_Large.ttf'); } 
+@font-face { 	font-family: sony; src: url("../fonts/Sony_Sketch_Bold_205.ttf"); }
+@font-face { 	font-family: burton; src: url("../fonts/Burton_s_nigthmare2000.ttf"); }
+@font-face { 	font-family: karabine; src: url("../fonts/karabine.ttf"); }
+@font-face { 	font-family: yorker; src: url("../fonts/times_new_yorker.ttf"); }
+@font-face { 	font-family: verdana; src: url("../fonts/verdana.ttf"); }
+a:link, a:visited { color: white; text-decoration: none; font-weight: bold;} 
+a:active, a:hover { color: white; text-decoration: underline;}
+img {	padding: 0px; 	margin: 0px;	position: relative;	left: 10px;}
+p { 	position: relative;	left: 10px;	top: 10px;}
+font { color: silver; }
+a { text-decoration: none; color: white; }
+#container {  position: relative; 	margin: 0 auto; 	width:1220px; height: auto;}
+#container-styli{ }
+#container-a { background: url('../images/header.png') repeat-x; background: none; width: 1220px; /*1100 1230*/ color: black;
+			font-weight: bold;	border-top-left-radius: 15px;	border-top-right-radius: 15px;	min-height: 100%;}
+#container-b { width: 1220px; height: 500px; }
+#logo_top {  float: left;  width: 300px;  border: 0px groove #155310;background-color: /*#192e1d;*/}
+#top { 	font-family: sony;  font-size: 18px; padding-top: 100px; color: silver;	margin-top: 0px; font-weight: bold;	float:left; width:1220px; /*border: 0px groove #155310;*/ background-color: #192e1d; background: black;/*url(../images/tlo2.png)*/ no-repeat; height:120px;}
+#menu-4 { text-decoration:none; 	border-radius: 5px; float: left;	margin-top: 10px; 	width: 850px;
+		 	height: 30px; 	color: black; border: 0px groove #155310;background-color: /*#192e1d;*/black;}
+#prawy_top{ 	background: white; 	color: black; 	font-family: Trajan Pro;  	width: 490px; 	height: 80px;
+				font-weight: bold;	float:left;		font-size: 14px;	padding: 10px 10px 10px 10px;	}
+#lewy_boczny {  	width:400px; float:left;	height: 100px;	/*--background: url(../images/linia1.jpg) center top no-repeat;--*/ }	
+#prawy_top_2{ 	font-family: Trajan Pro; 	color: white;	float:left; 	font-weight: bold;	padding: 10px 10px 10px 10px; }
+#top a:link, #container a:visited { 	color: #b4880e; 	text-decoration: underline; }
+#top a:hover, #container a:active { 	color: #d4a010; 	text-decoration: none; }
+#boczny { 	position:none; 	left: 1000px; 	top: 130px; 	width: 200px; 	height: auto; 	float: left;	font-size: 16px; 	font-weight: 700px;	background: white;	opacity:0.7;	-moz-opacity:0.7;	margin: 0;  padding: 10px 120px 10px 2px;	/*--   poly d³ szer pol x --*/}
+#reklama {   float:left; width: 1220px; }
+#srodek { float: left;  width: 1220px; border: 0px groove #155310; border-radius: 3px; padding-bottom: 10px;background-color: /*#182530*/transparent;background: red url(../images/tlo.png) repeat; }
+#liniak { float: left; margin-left: 5px;margin-top: 10px; height: 3px; width: 1215px; border-radius: 2px; background: url('../images/linia.png') no-repeat;/*pasek_gora_2.png*/ }
+#stopka2 {  position: relative; width: 100%; 	margin: 0 auto;  height: 150px; float: left; display:block; font-family: sony; 			clear:both; background: url('../images/pasek_dol_2.png') repeat-x;  }
+#stopka{ position:none; width:1220px; padding: 20px; margin: 0 auto;  font-size: 18px;  }
+#bok { width:auto; height: auto; display:block;  }
+@font-face { 	font-family: Trajan Pro; src: url("../fonts/TrajanPro-Regular.otf") format("opentype"); }
+@font-face { 	font-family: resident; src: url("../fonts/Resident_Evil_Large.ttf"); } 
+@font-face { 	font-family: burton; src: url("../fonts/Burton_s_nigthmare2000.ttf"); }
+@font-face { 	font-family: karabine; src: url("../fonts/karabine.ttf"); }
+@font-face { 	font-family: yorker; src: url("../fonts/times_new_yorker.ttf"); }
+@font-face { 	font-family: sony; src: url("../fonts/Sony_Sketch_Bold_205.ttf"); }
+#kol_1 { float: left; width: 230px;} 
+#kol_2 { float: left; width: 770px;}
+#glowny {  	bottom:auto;		height: auto;	border: 1px solid silver;	float: right;
+				right: 10px;	font-family: verdana; 	font-size: 24px;	font-weight: 550px;	background: /*#000080*//*#0035a2*/black;	/*opacity:0.7;	-moz-opacity:0.7;*/ 		/*box-shadow: 0px 0px 14px 10px #808080;*/
+			background: #000080 repeat scroll 0 0 rgba(0, 0, 0, 0.1); 	list-style:none; }
+#glowny-2 {  width: 290px; 	height: 300px;	float: left;	font-family: sony;	font-size: 16px;	font-weight: 550px;
+			background: #000080;	opacity:0.8;	-moz-opacity:0.8;	margin:  0;	padding: 0px 100px 50px 0px;
+			background: #000080 repeat scroll 0 0 rgba(0, 0, 0, 0.1); 		/*box-shadow: 0px 0px 14px 10px #808080;*/
+			width:640; 		float:none;		margin: 10px 20px 20px 16px;		list-style:none;}
+#glowny-3 { 	border: 2px solid white;		background: white;	width: 200px;	font-family: sony; 	height: auto;
+			float: left; 	color: white;	margin: 10px 20px 20px 16px;	border-radius: 15px;	font-size: 17px;	font-style: italic; font-weight: 550px; 	z-index: -1;}
+#glowny-4 { 	font-family: sony; 	background: white;		width: 350px;	height: 210px;	float: left;	color: blue;
+			font-size: 14px;	font-style: italic;	font-weight: 550px;	padding: 10px;}
+#autor {		height: 40px;	color: white;	margin: 0;	padding: 10px 10px 10px 4px; 	font-size: 16px;	font-weight: bold;
+			font-family: sony; 		height:auto;		float:none;		margin:20 16px 20px 16px;		list-style:none;}
+#kontakt {	position:none;	font-size: 28px; text-shadow: 2px 2px 2px black;font-weight: bold;	position:none; float: left;
+			width: 200px;	font-family: sony; 	margin: 0px;	font-size: 22px;	padding: 10px 20px 20px 10px;	font-weight: bold;		float:none;		height:auto;		margin:0px 16px 0px 0px;		list-style:none;}
+#licznik{	border: 2px solid white;	float: left;	border-radius: 10px; padding: 10px; 	color: white;	font-size: 14px;
+			background: white;	width: 180px;	font-weight: bold;			
+			font-family: Trajan Pro; 		margin:0 10px 10px 16px;		list-style:none;}
+/*box-shadow: 0px 5px 4px 0px #808080;*/
+#licznik2 { display: block; float: right; margin-left: 50px;margin-top: -65px; }
+#prawy_bocznys {		margin: 0;	/*background: url(../images/linia1.jpg) center top no-repeat;*/	padding: 0px 10px 360px 0px;
+					background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);		box-shadow: 0px 5px 4px 0px #808080;
+					float:left;			margin:0 16px 20px 16px;		list-style:none;		clear:box;}
+#glowny h1 {		font-size: 36px;	color: white;/*#0080FF*/	margin-top: 0;	padding-top: 0;	}
+#glowny odstep {	line-height: 10px; }
+#glowny h2 {		font-size: 18px; color: silver;}
+#glowny h3, #content h4 {	font-size: 48px;	color: #7a7000; }
+#glowny h4 {		font-size: 20px; color: yellow;}
+
+#glowny h5 { 	font-size: 12px;	color: #7a7000; }
+hr { 	border-bottom: 1px solid #d4a010;	border-left: none;	border-right: none;	border-top: none; }
+#menu3 {	float:left; 	height: 50px;	color: black;	border: 2px solid white;	text-height: bold;	width: 200px;
+	background: /*#000080*//*white*/white; 	background: #000080 repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+	/*box-shadow: 0px 0px 5px 5px #808080;*/	border-radius: 0px; 	margin: 10px 10px 10px 16px;
+	list-style:none; 	font-family: Trajan Pro;	clear:both; }
+/* menu */
+#menu { text-decoration:none;	border: 0px solid white;		border-radius: 0px; padding:0px 0 30px 0 ;	clear: both;
+	width: 200px; 	margin: 5 60px;	float:left; 	height: auto; 	color: black; 	background: /*white*/white; 	width:200px;
+	height:auto; 	margin: 10px 10px 10px 16px; 	list-style:none; 	opacity:1; 	-moz-opacity:0.9; }
+#menu ul, ul li { 	display: block; 	list-style: none; 	margin: 0; 	padding: 0; }
+#menu ul { 	width: 200px;	padding: 2px 2px 1px 2px;}
+#menu ul li { 	border-bottom: 1px solid silver; }
+#menu ul a:link, ul a:visited {  display: block; 	width: 195px;    text-decoration: none;		padding: 10px 0px 10px 1px;
+	font-weight: bold; 	font-size: 18px; 	font-family: verdana; 	background-color: /*white*/white; 	color: white; }
+#menu ul a:hover ,ul li.current a { 	width: 195px; 	background-color: #28e; 	color: black; }
+#menu li a { color: black; } 
+#menu span { 	background-repeat: repeat-x; 	position:none;  	text-align: center; 	margin-top:-22px;	color: white;
+	font-weight: bold;  	width: 200px;	height: 35px; }
+#menu  li.current a b, #menu li a:hover b{ 	color: white;}  /* color bez podœwietlenia */
+#menu  li a b{ //	float: left;	text-decoration:none; color: white; padding-left: 15px; }
+#menu2 {  width:50px;}
+#menu2 #menu li a b{ text-decoration:none; } /* end of menu *//* menu */
+#menu2 { left: 100px; width:50px; }
+
+#menu-4  li a b:hover { 	color: white; 	text-decoration: none; }
+#menu-4 ul a:link, ul a:visited { 	text-decoration: none; 	padding: 5px;}
+
+#menu-4 span { 	position: relative; 	top:0px;  	left: -150px; 	width: 200px; 	height: 45px; }
+#menu-4 ul{ display: block; 	list-style: none; 	margin: 0; 	padding: 0 0 0 10px; 	margin: 0; 	height: auto; 	list-style: none;
+	display: block;}
+#menu-4 ul li{ display: inline; //	float:left; 	}
+#menu-4 li a{ text-decoration:none; 	position: relative; 	font-family: Trajan Pro;  		background: black;
+			border: 0px solid white; 	border-radius: 0px; 	top: 0px; 	left: 20px; 	right: 70px; //	float: left;
+			color: white; 	width:50px;  	font-size: 18px; 	height: 50px; 	line-height: 30px; 	text-align: center;
+			padding: 0px 0 0 4px;	}
+#menu-4  li a b{ //	float: left;	padding: 0px 24px 0 16px;	text-decoration:none;color: white; }
+#menu-4  li a b:hover { 	color: white; 	text-decoration: none; }
+#menu-4 ul a:link, ul a:visited { 	text-decoration: none; 	padding: 5px; }
+#menu-4  li.current a b, #menu-4 li a:hover { 	color: white;	text-decoration: none;}
+#menu-4  li.current a b, #menu-4 li a:hover b{ 	color: white; 	font-weight: bold; text-decoration:none; 	padding-top: 2px;
+	padding-bottom: 3px; 	text-decoration: none; 	border-radius: 15px; 	background: url(../images/menu_podswietlenie.jpg) right top no-repeat;}
+	
+#menu5{ text-decoration:none;	border: 0px solid white;		border-radius: 0px; padding:0px 0 30px 0 ;	clear: both;
+	 	margin: 5px 60px;	float:left; 	height: auto; 	color: black; 	background: none; 	
+	height:auto; 	 	list-style:none;  padding-left: 20px; padding-top: 50px; }
+#menu5 ul, ul li { 	display: block; 	list-style: none; 	margin: 0; 	padding: 0; }
+#menu5 ul { 	width: 680px;	padding: 2px 2px 1px 2px;}
+#menu5 ul li { border: 0px solid white; 	border-radius: 15px; }
+#menu5 ul a:link, ul a:visited {  display: block; float: left;	width: 280px;  padding-left: 50px; padding-top: 50px; text-decoration: none;		padding-bottom: 30px;
+	font-weight: bold; 	font-size: 32px; 	font-family: sony; 	background-color: /*white*/white; 	color: white; }
+#menu5 ul a:hover ,ul li.current a { 	width: 280px; 	background-color: #28e; border-radius: 15px;	color: white; font-size: 32px; }
+#menu5 li a { color: black; } 
+#menu5 span { 	background-repeat: repeat-x; 	position:none;  	text-align: center; 	margin-top:-22px;	color: black;
+	font-weight: bold;  	width: 200px;	height: 35px; }
+#menu5 li.current a b, #menu5 li a:hover b{ 	color: white;}  /* color bez podœwietlenia */
+#menu5 li a b{ //	float: left;	text-decoration:none; color: black; padding-left: 15px; }	
+	
+	
+#menu #menu2 #menu-4 #menu5 li a b { text-decoration:none; }
+/* end of menu */
+.box {
+	border: 2px solid white;	float: left;	border-radius: 10px; padding: 10px; 	color: white;	font-size: 14px;
+			background: white;	width: 180px;	font-weight: bold;			
+			font-family: Trajan Pro; 		margin:0 10px 10px 0px;		list-style:none;
+
+}
+.okno { border: 2px solid #000080; }
+.pusty { height:20px; background: none; }
+.linki { text-decoration: none; }
+.linki { text-decoration: none; }
+.change_window { text-shadow: 3px 2px 2px black;	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+				box-shadow: 5px 4px 4px 0px #808080; }
+.change_windows { 		background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);	box-shadow: 3px 3px 3px 0px #808080;}
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix {display: inline-table; }
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+.brclear {clear:both;height:0;margin:0;font-size: 1px;line-height: 0;}

@@ -1,0 +1,61 @@
+#container {
+
+position: relative;
+left:0px;
+top:0px;
+
+}
+
+#top{
+position: relative;
+background: black;
+color: white;
+height:100px;
+
+}
+
+#srodek-1 {
+position: relative;
+background: red;
+color: white;
+height:auto;
+left:0px;
+top:0px;
+height:auto;
+bottom: 100px;
+}
+
+
+#glowny {
+position: absolute;
+background: red;
+top:0px;
+left:0px;
+color: white;
+height:auto;
+
+}
+#glowny2 {
+position: relative;
+background: green;
+color: white;
+height: 100px;
+
+}
+#bok {
+position: relative;
+
+}
+#srodek{
+position: relative;
+background: blue;
+left:0px;
+top:0px;
+height:auto;
+bottom:100px;
+}
+#dol{
+position: absolute;
+
+
+}

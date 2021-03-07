@@ -1,0 +1,659 @@
+body {
+
+	background: /*#3e4341;*//*#191f26*/black;
+	background-image: /*url(../images/header.png)*/; 
+/*	background-attachment: fixed; 
+	background-position: center;#b7bd19*/
+	background-repeat: no-repeat;
+
+
+}
+@font-face { 	font-family: Trajan Pro; src: url("../fonts/TrajanPro-Regular.otf") format("opentype"); }
+a:link, a:visited { color: white; text-decoration: none; font-weight: bold;} 
+a:active, a:hover { color: white; text-decoration: underline;}
+img {
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	left: 10px;
+}
+p { 
+	position: relative;
+	left: 10px;
+	top: 10px;
+
+
+}
+
+
+a { text-decoration: none; }
+
+#container {
+
+position: relative;
+height:auto;
+width: 1024px;
+  margin: 0 auto;
+
+}
+#container-styli{
+
+		
+}
+#container-a {
+background: url('../images/header.png') repeat-x;
+width: 1024px;
+height: 1230px;/*1100*/
+
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+#container-b {
+
+width: 1024px;
+
+
+
+height: 500px;
+
+}
+
+
+
+#top {
+
+	font-family: Trajan Pro; 
+	font-size: 18px;
+	color: silver;	
+	font-weight: bold;
+	float:left;
+}
+#prawy_top{
+	background: white;
+	color: black;
+	font-family: Trajan Pro; 
+
+	width: 490px;
+	height: 80px;
+	font-weight: bold;
+	float:left;
+	font-size: 14px;
+	padding: 10px 10px 10px 10px;
+}
+
+#lewy_boczny {
+
+
+	width:400px;
+	float:left;
+	height: 100px;
+	/*--background: url(../images/linia1.jpg) center top no-repeat;--*/
+	
+}	
+
+
+#prawy_top_2{
+	font-family: Trajan Pro; 
+	color: white;
+	float:left;
+	font-weight: bold;
+	padding: 10px 10px 10px 10px;
+}
+
+
+
+
+
+
+#top a:link, #container a:visited {
+	color: #b4880e;
+	text-decoration: underline;
+}
+
+#top a:hover, #container a:active {
+	color: #d4a010;
+	text-decoration: none;
+}
+
+#boczny {
+	position: absolute;
+	left: 1000px;
+	top: 130px;
+	width: 200px;
+	height: auto;
+	float: left;
+
+	font-size: 16px;
+	font-weight: 700px;
+	background: white;
+	opacity:0.7;
+	-moz-opacity:0.7;
+	margin: 0;
+	padding: 10px 120px 10px 2px;
+	/*--       pol y d³ szer pol x --*/
+}
+
+
+
+#srodek {
+float: left;
+margin-top: 95px;
+width: 1024px;
+
+}
+#liniak {
+margin-left: 5px;
+height: 3px;
+width: 1015px;
+position:absolute;
+top: 60px;
+border-radius: 2px;
+background: url('../images/linia.png') no-repeat;/*pasek_gora_2.png*/
+}
+#stopka2 {
+
+
+width: 1024px;
+
+height: 150px;
+float: left;
+display:block;
+background: url('../images/pasek_dol_2.png') repeat-x;
+font-family: Trajan Pro; 
+clear:both;
+}
+#bok {
+
+
+width:auto;
+height: auto;
+display:block;
+}
+
+@font-face { 	font-family: Trajan Pro; src: url("../fonts/TrajanPro-Regular.otf") format("opentype"); }
+
+#glowny {
+
+
+	bottom:auto;
+	width: 753px;
+	height: auto;
+	
+	float: right;
+	margin-top: -180px;
+	right: 10px;
+	font-family: Trajan Pro; 
+	font-size: 10px;
+	font-weight: 550px;
+	background: /*#000080*//*#0035a2*/;
+	/*opacity:0.7;
+	-moz-opacity:0.7;*/
+	
+	background: #000080 repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+		/*box-shadow: 0px 0px 14px 10px #808080;*/
+	
+
+		list-style:none;
+
+}
+#glowny-2 {
+
+		
+
+	width: 290px;
+	height: 300px;
+	float: left;
+	font-family: Times New Roman;
+	font-size: 16px;
+	font-weight: 550px;
+	background: #000080;
+	opacity:0.8;
+	-moz-opacity:0.8;
+	margin:  0;
+	padding: 0px 100px 50px 0px;
+	
+	background: #000080 repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+		/*box-shadow: 0px 0px 14px 10px #808080;*/
+		width:640;
+		float:none;
+		margin: 10px 20px 20px 16px;
+		list-style:none;
+
+}
+
+#glowny-3 {
+
+		
+
+	background: 3a4042;
+	width: 200px;
+	font-family: Trajan Pro; 
+	height: auto;
+	float: left;
+	color: blue;
+
+	margin: 10px 20px 20px 16px;
+	border-radius: 15px;
+	font-size: 17px;
+	font-style: italic;
+	font-weight: 550px;
+	z-index: -1;
+
+}
+
+#glowny-4 {
+
+	font-family: Trajan Pro; 
+	background: #3a4042;	
+	width: 350px;
+	height: 210px;
+	float: left;
+	color: blue;
+
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 550px;
+	padding: 10px;
+
+}
+#autor {
+	height: 40px;
+	color: white;
+
+	
+	margin: 0;
+	padding: 10px 10px 10px 4px; 
+	font-size: 16px;
+	font-weight: bold;
+
+	font-family: Trajan Pro; 
+		height:auto;
+		float:none;
+		margin:20 16px 20px 16px;
+		list-style:none;
+}
+#kontakt {
+	position: absolute;
+
+	top: 80px;
+	left: 250px;
+	height:40px;
+	color: white;
+	position: absolute;
+	width: 600px;
+
+	font-family: Trajan Pro; 
+	margin: 0px;
+	font-size: 16px;
+	padding: 10px 20px 20px 10px;
+	font-weight: bold;
+	
+		float:none;
+		height:auto;
+		margin:20px 16px 20px 0px;
+		list-style:none;
+}
+#licznik{
+	border: 2px solid white;
+
+	
+	float: left;
+		border-radius: 10px; padding: 10px; 
+	color: white;
+	font-size: 14px;
+
+	background: #3a4042;
+	width: 180px;
+	font-weight: bold;
+	height: 220px;
+
+		/*box-shadow: 0px 5px 4px 0px #808080;*/
+		font-family: Trajan Pro; 
+		margin:0 10px 10px 16px;
+		list-style:none;
+
+	
+}
+#stopka{
+
+}
+
+#prawy_bocznys {
+
+	margin: 0;
+	/*background: url(../images/linia1.jpg) center top no-repeat;*/
+	padding: 0px 10px 360px 0px;
+	
+		background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+		box-shadow: 0px 5px 4px 0px #808080;
+		
+		float:left;
+		margin:0 16px 20px 16px;
+		list-style:none;
+		clear:box;
+}
+
+
+#glowny h1 {
+	font-size: 30px;
+	color: white;/*#0080FF*/
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#glowny odstep {
+		line-height: 10px;
+}
+
+#glowny h2 {
+	font-size: 12px;
+	color: silver;
+
+}
+
+#glowny h3, #content h4 {
+	font-size: 14px;
+	color: #7a7000;
+}
+
+#glowny h5 {
+	font-size: 12px;
+	color: #7a7000;
+}
+
+hr {
+	border-bottom: 1px solid #d4a010;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+}
+
+#menu3 {
+	float:left;
+	height: 50px;
+	color: white;
+	border: 2px solid white;
+	text-height: bold;
+	width: 200px;
+	background: /*#000080*/#3a4042;
+	background: #000080 repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+	/*box-shadow: 0px 0px 5px 5px #808080;*/
+	border-radius: 10px;
+
+	margin: 10px 10px 10px 16px;
+	list-style:none;
+	font-family: Trajan Pro;
+	clear:both;
+
+}
+
+
+/* menu */
+
+}
+#menu2 {
+
+width:50px;
+
+
+}
+#menu {
+text-decoration:none;
+	border: 2px solid white;
+		border-radius: 10px; padding:20px 0 0 0 ;
+	clear: both;
+	width: 200px;
+	margin: 5 60px;
+
+	float:left;
+	height: auto;
+
+	color: white;
+	background:  /*#00B7EB*/#3a4042;
+ 	background: #000080 repeat scroll 0 0 #0035a2;
+	/*box-shadow: 0px 0px 14px 10px #808080;*/
+		width:200px;
+		height:auto;
+		
+		margin: 10px 10px 10px 16px;
+		list-style:none;
+		opacity:1;
+	-moz-opacity:0.9;
+}
+
+#menu span {
+
+	background-repeat: repeat-x;
+	position: absolute;
+	text-align: center;
+	margin-top:-22px;
+	color: white;
+	font-weight: bold;
+	
+	width: 200px;
+	height: 35px;
+
+}
+.pusty {
+
+height:20px;
+background: none;
+}
+
+#menu ul{
+	padding: 0 0 0 0px;
+	margin:  0;
+	height: auto;
+	list-style: none;
+	display: block;
+
+}
+.linki {
+text-decoration: none;
+}
+#menu li {
+	margin-top: 50px;
+
+
+}
+#menu ul li{
+	background: url('../images/linia.png') no-repeat;
+//	float:left;
+	padding-right: -5px;
+	margin-top: 2px;
+	padding-top: 14px;	
+	margin-bottom: 10px;
+}
+#menu2 #menu li a b{
+text-decoration:none;
+
+}
+
+
+#menu li a{
+
+text-decoration:none;
+	position: relative;
+	top: 0px;
+	left: 5px;
+//	float: left;
+	color: white;
+	width:150px;
+	font-family: Trajan Pro; 
+	margin: 5px;
+	font-size: 12px;
+	height: 50px;
+	line-height: 30px;
+	text-align: center;
+	padding: 0px 10px 10px 14px;	
+
+
+}
+#menu  li a b{
+//	float: left;
+	padding: 10px 24px 10px 25px;
+	text-decoration:none;
+	color: white;
+}
+
+#menu  li a b:hover {
+	color: white;
+	text-decoration: none;
+		margin:  10px 20px 20px 4px;	
+
+}
+#menu ul a:link, ul a:visited {
+
+	
+	text-decoration: none;
+
+	margin: 10px 20px 20px 4px;	
+	padding: 5px;
+
+}
+
+
+#menu  li.current a b, #menu li a:hover {
+	color: black;
+	text-decoration: none;
+		margin:  10px 20px 20px 0px;	
+}
+
+#menu  li.current a b, #menu li a:hover b{
+	color: white;
+text-decoration:none;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	text-decoration: none;
+	background: url(../images/menu_podswietlenie.jpg) right top no-repeat;
+		margin:  12px 20px 20px 0px;	
+}
+
+/* end of menu */
+
+
+/* menu */
+
+}
+#menu2 {
+
+left: 100px;
+width:50px;
+
+
+}
+#menu-4 {
+position: absolute;
+top: 18px;
+left: 180px;
+text-decoration:none;
+	border-radius: 5px;
+	clear: both;
+
+	width: 1024px;
+	float: left;
+	height: 30px;
+	color: black;
+}
+
+#menu-4 span {
+
+	position: relative;
+	top:0px;
+	left: -150px;
+	width: 200px;
+	height: 45px;
+	
+}
+
+#menu-4 ul{
+display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 10px;
+	margin: 0;
+	height: auto;
+	list-style: none;
+	display: block;
+
+}
+.linki {
+text-decoration: none;
+}
+#menu-4 ul li{
+display: inline;
+//	float:left;
+	padding-right: -5px;
+}
+#menu2 #menu-4 li a b{
+text-decoration:none;
+
+}
+#menu-4 li a{
+text-decoration:none;
+	position: relative;
+	font-family: Trajan Pro; 
+		background: black;
+			border: 2px solid white;
+	border-radius: 15px;
+	top: 0px;
+	left: 70px;
+	right: 70px;
+//	float: left;
+	color: white;
+	width:50px;
+	font-size: 14px;
+	height: 50px;
+	line-height: 30px;
+	text-align: center;
+	padding: 0px 0 0 4px;	
+}
+#menu-4  li a b{
+//	float: left;
+	padding: 0px 24px 0 16px;
+	text-decoration:none;
+color: white;
+
+}
+
+#menu-4  li a b:hover {
+	color: white;
+	text-decoration: none;
+}
+#menu-4 ul a:link, ul a:visited {
+
+	text-decoration: none;
+	padding: 5px;
+
+}
+
+
+#menu-4  li.current a b, #menu-4 li a:hover {
+	color: white;
+	text-decoration: none;
+	
+}
+
+#menu-4  li.current a b, #menu-4 li a:hover b{
+	color: white;
+	font-weight: bold;
+text-decoration:none;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	text-decoration: none;
+	border-radius: 15px;
+	background: url(../images/menu_podswietlenie.jpg) right top no-repeat;
+	
+	
+}
+
+/* end of menu */
+
+
+
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix {display: inline-table; }
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+.brclear {clear:both;height:0;margin:0;font-size: 1px;line-height: 0;}
